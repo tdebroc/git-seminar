@@ -1,12 +1,16 @@
 package com.isep.tp1;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        Piste[] pistes = new Piste[4];
-        pistes[0] = new Piste("La Marseillaise.");
-        pistes[1] = new Piste(5 * 60, "I will Survive.");
-        pistes[2] = new Piste(3 * 60, "Bande Organisée.");
-        pistes[3] = new Piste(4 * 60, "Hot Stuff.");
+        List<Piste> pistes = new ArrayList<>();
+        pistes.add(new Piste("La Marseillaise."));
+        pistes.add(new Piste(5 * 60, "I will Survive."));
+        pistes.add(new Piste(3 * 60, "Bande Organisée."));
+        pistes.add(new Piste(4 * 60, "Hot Stuff."));
+        pistes.add(new  Piste(2 * 60, "Zumba."));
 
         for (Piste current : pistes) {
             System.out.println(current);
