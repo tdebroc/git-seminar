@@ -17,6 +17,7 @@ public class Main {
         pistes.add(new Piste(4 * 60, "Dance on the Mars"));
         pistes.add(new Piste(4 * 60, "Tu verras"));
         pistes.add(new Piste(4 * 60, "Californication"));
+        pistes.add(new Piste(4 * 60, "Walk I like an Egyptian"));
 
 
         for (Piste current : pistes) {
