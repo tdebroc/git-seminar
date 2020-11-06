@@ -13,6 +13,7 @@ public class Main {
         pistes.add(new  Piste(2 * 60, "Zumba."));
         pistes.add(new  Piste(7 * 60, "Billy Jean"));
         pistes.add(new  Piste(7 * 60, "Lola"));
+        pistes.add(new  Piste(7 * 60, "Bella Ciao"));
 
         for (Piste current : pistes) {
             System.out.println(current);
