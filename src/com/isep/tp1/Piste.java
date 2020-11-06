@@ -1,9 +1,8 @@
 package com.isep.tp1;
 
 public class Piste {
-    public static int MAX_DURATION = 60 * 30;
-    private int duration;
-    private String nom;
+    private final int duration;
+    private final String nom;
 
     public Piste(String nom) {
         this.nom = nom;
@@ -17,14 +16,6 @@ public class Piste {
     public Piste(int duration, String nom) {
         this.duration = duration;
         this.nom = nom;
-    }
-
-    public void printPiste(int i) {
-        System.out.println("Piste " + i + " is " + getNom() + " and duration is " + duration);
-    }
-
-    public String getNom() {
-        return nom;
     }
 
 }

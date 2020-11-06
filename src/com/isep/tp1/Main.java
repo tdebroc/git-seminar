@@ -11,6 +11,7 @@ public class Main {
         pistes.add(new Piste(3 * 60, "Bande Organisée."));
         pistes.add(new Piste(4 * 60, "Hot Stuff."));
         pistes.add(new  Piste(2 * 60, "Zumba."));
+        pistes.add(new  Piste(7 * 60, "Billy Jean"));
 
         for (Piste current : pistes) {
             System.out.println(current);
